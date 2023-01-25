@@ -25,14 +25,33 @@ Read the output. Read the code.
 Try to figure out what's going on. 
 
 1. What libraries did we import?
+import sqlite3
+import time
+import multiprocessing
+import os
+import datetime
+import platform
+import sys
 1. Where do we set the task_duration?
+34
 1. How many functions are defined? 
+7
 1. What are the function names? 
+create_table, drop_table, insert_pet,process_one,process_2,process_3,recreate_database
 1. In general, what does each function do? 
+create_table - creates a sql database with pet table
+drop_table - deletes pet table
+insert_pet - adds pet to table
+process_one - adds 2 pets
+process_2 - adds 2 pets
+process_3 - adds 2 pets
+recreate_database - deletes and readdspets table
 1. Where does the execution begin?
+132
 1. How many processes do we start?
+3
 1. How many records does each process insert?
-
+2
 In this first run, we start 3 processes, 
 each inserting 2 records into a shared database 
 (for a total of 6 records inserted.)
@@ -96,14 +115,16 @@ Python has pretty helpful error messages.
 When you get an error, read them carefully. 
 
 - What error do you get?
+database is locked
 - Can you tell what line it was executing when it failed?
-
+95
 
 ## Database Is Locked Error
 
 Do a web search on the sqlite3 'database is locked' error.
 
 - What do you learn?
+WHendeadlock occurrs, sql crashes
 - Once a process fails, it crashes the main process and everything stops. 
 
 ## Deadlock

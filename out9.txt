@@ -1,0 +1,19 @@
+(base) [jordan@fedora streaming-02-multiple-processes]$ python process_streaming_jordan.py
+Sent: b'[Query, Response]' on port 9999.
+Sent: b"[age of yours, I prefer not to answer with a number. I know I'm young.]" on port 9999.
+Sent: b'[tell me about you, Think of me as a virtual agent.]' on port 9999.
+Sent: b"[tell me some stuff about you, I'm a virtual agent.]" on port 9999.
+Sent: b"[you annoy me, I don't mean to. I'll ask my developers to make me less annoying.]" on port 9999.
+Sent: b"[you are annoying, I'll do my best not to annoy you in the future.]" on port 9999.
+Sent: b"[you are incredibly annoying, I didn't mean to. I'll do my best to stop that.]" on port 9999.
+Sent: b"[you are irritating, I'll try not to annoy you.]" on port 9999.
+(base) [jordan@fedora streaming-02-multiple-processes]$ python process_streaming_jordan.py
+Sent: b'[Query, Response]' on port 9999.
+Sent: b"[age of yours, I prefer not to answer with a number. I know I'm young.]" on port 9999.
+Sent: b'[tell me about you, Think of me as a virtual agent.]' on port 9999.
+Sent: b"[tell me some stuff about you, I'm a virtual agent.]" on port 9999.
+Sent: b"[you annoy me, I don't mean to. I'll ask my developers to make me less annoying.]" on port 9999.
+Sent: b"[you are annoying, I'll do my best not to annoy you in the future.]" on port 9999.
+Sent: b"[you are incredibly annoying, I didn't mean to. I'll do my best to stop that.]" on port 9999.
+Sent: b"[you are irritating, I'll try not to annoy you.]" on port 9999.
+(base) [jordan@fedora streaming-02-multiple-processes]$ 
